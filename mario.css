@@ -1,0 +1,43 @@
+
+#title {
+  background: blueviolet;
+  width: 600px;
+  padding: 10px;
+  color: white;
+  margin-bottom: 40px;
+}
+#menu {
+  background: red;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  display: inline;
+  margin-left: 100px;
+  margin-bottom: 120px;
+    }
+
+  .menu1 {
+    display: inline;
+
+    }
+
+    .menu2 {
+      display: inline;
+  
+      }
+  
+  .square {
+	width: 10px;
+	height: 10px;
+	background: red;
+    margin: 3px 1px;
+    display: inline-block;
+  }
+  
+  .square_invis {
+	width: 10px;
+	height: 10px;
+	background: white;
+    margin: 3px 1px;
+    display: inline-block;
+  }

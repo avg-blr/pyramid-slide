@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       #pyramid {
+           font-family: 'Courier New', Courier, monospace;
+           line-height: 0;
+
+       }
+   </style>
+   <link rel="stylesheet" type="text/css" href="mario.css">
+</head>
+<body>
+    <h1>Mario 1</h1>
+    <h3>Behold this wonderful pyramid:</h3>
+    <div id="pyramid-slide">
+    <div id="title">
+        <center> <h1>Pyramid Slide</h1></center>
+    </div>
+    <div id="menu">
+        <div class="menu1"> 
+            <label for="symbol">Brick Symbol:</label>
+            <select id="symbol" name = "symbol" onchange="drawPyramid(5,this.value)"> 
+                <option value="@">@</option>
+                <option value="#">#</option>
+                <option value="$">$</option>
+                <option value="&">&</option>
+            </select>
+        </div>
+        <div class="menu2">
+            <label for="high">How high?</label>
+            <input type="range" id="high" name="high" min="1" max="20" value="8" 
+                   onchange="document.getElementById('rangeValue').innerHTML=this.value;">
+            <span id="rangeValue">8</span>
+        </div>
+</div>
+</div>
+    <div id="pyramid">
+       
+
+        <div id="construction">
+            <p> Uh oh! the pyramid is still under construction.</p>
+            <p>Check back again soon... our developers are hard at wrk as we speak!</p>
+
+        </div>
+    </div>
+    <script src="mario.js"></script>
+
+
+</body>
+</html>
