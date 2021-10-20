@@ -8,14 +8,24 @@
 }
 #menu {
   background: red;
-  width: 250px;
+  width: 500px;
   padding: 20px;
   border: 1px solid black;
   display: inline;
   margin-left: 100px;
   margin-bottom: 120px;
-    }
+  }
 
+
+  #pyramidSlide {
+    background: rgba(255, 94, 0, 0.589);
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+  }
   .menu1 {
     display: inline;
 

@@ -30,10 +30,14 @@ function printPyramid(height) {
 }
 
 function drawPyramid(height=5,symb="#") {
-    const container = document.getElementById("pyramid");
-    
+    const container = document.getElementById("pyramidSlide");
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
     for (let i=0; i<height; i++){
        let div = document.createElement('div');
+       div.style.display = "block"; 
+       div.style.textAlign = "right";
        div.innerHTML += "<p>"+"&nbsp".repeat(height-i-1)+symb.repeat(i+2)
        
        container.appendChild(div);
